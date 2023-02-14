@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1605705290 source:d:\codeblocks ssss\lab 6\main.c
+	<stdio.h>
+	<stdlib.h>
+	"matrix.h"
+
+1605705290 d:\codeblocks ssss\lab 6\matrix.h
+	<stdlib.h>
+
+1605705549 source:d:\codeblocks ssss\lab 6\matrix.c
+	"matrix.h"
+
+1605705290 source:d:\probleme c\lab 6\main.c
+	<stdio.h>
+	<stdlib.h>
+	"matrix.h"
+
+1605723148 d:\probleme c\lab 6\matrix.h
+
+1605705549 source:d:\probleme c\lab 6\matrix.c
+	"matrix.h"
+

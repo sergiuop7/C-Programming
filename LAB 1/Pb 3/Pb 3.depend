@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1602829924 source:b:\probleme c\pb 3\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1602826326 source:e:\cursuri\probleme c\lab 1\pb 3\main.c
+	<stdio.h>
+	<stdlib.h>
+

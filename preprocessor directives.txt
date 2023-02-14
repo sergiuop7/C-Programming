@@ -1,0 +1,88 @@
+To define a constant
+
+#define name_constant value_constant // #define PI 3.14
+
+if structure for define
+
+#ifdef name_constant				//check if definition exists 
+	#undef name_constant			//undefines
+	#define name_constant value_constant	//defines
+#endif						//endif
+
+Error messages 
+
+#error error_text // ! will print error_text error
+
+Warning messages 
+
+# warning warning_text
+
+include libraries predifined in C
+
+#include <[...].h> // ex : math.h ,limits.h
+
+MACROS
+
+printf("Date : %s\n",__DATE__);
+printf("Time : %s\n",__TIME__);
+printf("File : %s\n",__FILE__);
+printf("Line : %d\n",__LINE__);
+printf("ANSI : %d\n",__STDC__); //defined as 1 when computer compiles with ANSI standard
+
+Predifined values 
+
+//char
+
+CHAR_BIT        //size of chr ,bits
+CHAR_MIN	//min char	
+CHAR_MAX	//max char
+MB_LEN_MAX	//max nr of bytes in a multibyte ch
+
+//min
+
+SCHAR_MIN	// signed char
+SHRT_MIN	// signed short int
+INT_MIN		// signed int
+LONG_MIN	// signed long int
+
+//max
+
+SCHAR_MAX	
+SHRT_MAX
+INT_MAX
+LONG_MAX
+
+//unsigned 
+
+UCHAR_MAX	
+USHRT_MAX
+UINT_MAX
+ULONG_MAX
+
+//floating point 
+
+//min normalized poz values 
+
+FLT_MIN	        //float
+DBL_MIN		//double float
+LDBL_MIN	//long double float
+
+//max finite values
+
+FLT_MAX
+DBL_MAX
+LDBL_MAX
+
+//nuber of digits without losing precision
+
+FLT_DIG
+DBL_DIG
+LDBL_DIG
+
+FLT_RADIX	//radix of the exponent
+
+//nr of digits in floating point significant
+
+FLT_MANT_DIG
+DBL_MANT_DIG
+LDBL_MANT_DIG 

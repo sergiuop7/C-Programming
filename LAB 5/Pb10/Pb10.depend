@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1606469787 source:f:\probleme c\lab 5\pb10\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

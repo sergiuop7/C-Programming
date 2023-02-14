@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1606463875 source:e:\cursuri\probleme c\lab 5\pb7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
